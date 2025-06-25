@@ -45,10 +45,6 @@ else:
         vs = cv2.VideoCapture(args["video"])
 # allow the camera or video file to warm up
 time.sleep(2.0)
-pygame.mixer.init()
-strike_sound = pygame.mixer.Sound("C:/Users/ISAAC/Downloads/strike.wav")
-ball_sound = pygame.mixer.Sound("C:/Users/ISAAC/Downloads/ball.wav")
-readynext_sound = pygame.mixer.Sound("C:/Users/ISAAC/Downloads/readyfornextpitch.wav")
 
 # keep looping
 while True:
